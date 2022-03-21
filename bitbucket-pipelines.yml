@@ -35,7 +35,7 @@ definitions:
         deployment: production
         trigger: manual
         script:
-          - sh /var/www/vhosts/demo-cicd/sample-codedeploy/.deploy/prod-autodeploy.sh
+          - 'sh /var/www/html/sample-codedeploy/.deploy/prod-autodeploy.sh'
 pipelines:
   custom:
     deployment-to-prod:
