@@ -42,7 +42,7 @@ definitions:
             AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
             S3_BUCKET: $S3_BUCKET
             ACL: "public-read"
-            LOCAL_PATH: "build"
+            LOCAL_PATH: "public"
 pipelines:
   custom:
     deployment-to-prod:
